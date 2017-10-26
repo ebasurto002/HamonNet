@@ -19,4 +19,4 @@ _xmpp-server._tcp	SRV	5 0 5269 jabber-gw.blackartdsgns.com.
 smtp	IN	A	192.168.1.6
 imap	IN	A	192.168.1.7
 @	IN	MX	50	imap.blackartdsgns.com
-
+prestashop  IN  CNAME   www
