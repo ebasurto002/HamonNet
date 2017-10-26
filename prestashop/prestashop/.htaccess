@@ -10,7 +10,7 @@ SetEnv HTTP_MOD_REWRITE On
 RewriteEngine on
 
 
-#Domain: 192.168.1.4
+#Domain: prestashop.blackartdsgns.com
 RewriteRule . - [E=REWRITEBASE:/]
 RewriteRule ^api$ api/ [L]
 
