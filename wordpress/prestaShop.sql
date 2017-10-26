@@ -21,6 +21,8 @@
 
 CREATE DATABASE /*!32312 IF NOT EXISTS*/ `prestaShop` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
 
+GRANT ALL PRIVILEGES ON prestaShop.* TO 'vortex'@'localhost' IDENTIFIED BY '1234';
+
 USE `prestaShop`;
 
 --
