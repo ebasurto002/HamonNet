@@ -100,7 +100,7 @@ hosts:
 listen: 
   - 
     port: 5222
-    ip: "192.168.1.8"
+    ip: "0.0.0.0"
     module: ejabberd_c2s
     ##
     ## If TLS is compiled in and you installed a SSL
@@ -127,7 +127,7 @@ listen:
     resend_on_timeout: if_offline
   - 
     port: 5269
-    ip: "192.168.1.8"
+    ip: "0.0.0.0"
     module: ejabberd_s2s_in
   ##
   ## ejabberd_service: Interact with external components (transports, ...)
