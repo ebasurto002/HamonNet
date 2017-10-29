@@ -10,6 +10,7 @@ $TTL	604800
 			 604800 )	; Negative Cache TTL
 ;
 @	IN	NS	ns.example.com.
+@   IN  NS  ns2.example.com.
 ns	IN	A	192.168.1.12
 ns2	IN	A	192.168.1.13
 jabber-gw	IN	A	192.168.1.18

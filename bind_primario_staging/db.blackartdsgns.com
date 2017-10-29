@@ -10,7 +10,7 @@ $TTL	604800
 			 604800 )	; Negative Cache TTL
 ;
 @	IN	NS	ns.blackartdsgns.com.
-@   IN  NS  ns2.blackartdsgns.com
+@   IN  NS  ns2.blackartdsgns.com.
 ns	IN	A	192.168.1.12
 ns2	IN	A	192.168.1.13
 www	IN	A	192.168.1.14
@@ -19,5 +19,5 @@ _xmpp-client._tcp	SRV	5 0 5222 jabber-gw.blackartdsgns.com.
 _xmpp-server._tcp	SRV	5 0 5269 jabber-gw.blackartdsgns.com.
 smtp	IN	A	192.168.1.16
 imap	IN	A	192.168.1.17
-@	IN	MX	50	imap.blackartdsgns.com
+@	IN	MX	50	imap.blackartdsgns.com.
 prestashop  IN  CNAME   www
